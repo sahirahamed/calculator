@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        BMI CALCULATOR
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <div class="mass">BMI CALCULATOR</div>
+<label id="height-lab">HEIGHT</label>
+<input type="range" min="100" max="250" value="0" id="height" oninput="calcBmi()">
+<span id="height-val"></span>
+<br>
+<br>
+<label id="weight-lab">WEIGHT</label>
+<input type="range" min="20" max="100" value="0" id="weight" oninput="calcBmi()">
+<span id="weight-val"></span>
+<div id="result"></div>
+<p id="catagory">
+
+</p>
+</div>
+<script src="js.js"></script>
+</body>
+</html>

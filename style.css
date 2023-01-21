@@ -1,0 +1,52 @@
+body {
+  background-color: palevioletred;
+}
+
+#height-lab {
+  font-size: larger;
+  color: brown;
+  font-weight: bolder;
+  margin-right: 24px;
+}
+#weight-lab {
+  font-size: larger;
+  color: brown;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+#catagory {
+  color: rgb(2, 2, 99);
+  font-weight: bolder;
+  font-size: large;
+  font-style: italic;
+}
+.wrapper {
+  margin-left: 550px;
+  margin-top: 200px;
+}
+#result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 300px;
+  font-size: larger;
+  margin-top: 50px;
+  color: rgb(120, 6, 6);
+  font-weight: bolder;
+  font-size: x-large;
+}
+#catagory {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 300px;
+}
+.mass {
+  font-size: xx-large;
+  margin-bottom: 50px;
+  color: darkmagenta;
+}
